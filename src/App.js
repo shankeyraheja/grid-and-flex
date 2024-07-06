@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import "./App.css"
+import FirstImage from './components/image'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='maincontainer'>
+      <FirstImage/>
+      <FirstImage/>
+      <FirstImage/>
+      <FirstImage/>
+      <FirstImage/>
+
+
+      {/* <div>HOME</div>
+      <div>HOME</div>
+      <div>HOME</div>
+      <div>HOME</div>
+      <div>HOME</div> */}
+      {/* <img src="https://cdn.midjourney.com/12ed1b89-07de-4a4e-9c65-e460b8aa4450/0_3.png" height={300} width={300}></img>
+      <img src="https://cdn.midjourney.com/12ed1b89-07de-4a4e-9c65-e460b8aa4450/0_3.png" height={300} width={300}></img>
+      <img src="https://cdn.midjourney.com/12ed1b89-07de-4a4e-9c65-e460b8aa4450/0_3.png" height={300} width={300}></img>
+      <img src="https://cdn.midjourney.com/12ed1b89-07de-4a4e-9c65-e460b8aa4450/0_3.png" height={300} width={300}></img>
+      <img src="https://cdn.midjourney.com/12ed1b89-07de-4a4e-9c65-e460b8aa4450/0_3.png" height={300} width={300}></img>
+      <img src="https://cdn.midjourney.com/12ed1b89-07de-4a4e-9c65-e460b8aa4450/0_3.png" height={300} width={300}></img> */}
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
