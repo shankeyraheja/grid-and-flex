@@ -10,7 +10,7 @@ const App = () => {
       <FirstImage/>
       <FirstImage/>
       <FirstImage/>
-
+      <FirstImage/>
 
       {/* <div>HOME</div>
       <div>HOME</div>
