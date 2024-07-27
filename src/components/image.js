@@ -1,13 +1,13 @@
 import React from 'react'
 
-const FirstImage = () => {
+const FirstImage = ({image_url, color}) => {
   return (
     <div className='imagecontainer'>
-        <img src="https://cdn.midjourney.com/12ed1b89-07de-4a4e-9c65-e460b8aa4450/0_3.png" height={200} width={200}></img>
-        <button className='button'>CLICK</button>
+        <img src={image_url} height={200} width={200}></img>
+        <button className='button' style={{backgroundColor:color}}>SHOP</button>
         <button className='button'>ADD TO CART</button>
     </div>
-)
+      )
 }
 
 export default FirstImage
